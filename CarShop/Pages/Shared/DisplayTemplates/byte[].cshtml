@@ -1,0 +1,5 @@
+﻿@model byte[]
+@if (Model.Length > 0)
+{
+    <img id="Photo" src="data:image/png;base64,@Convert.ToBase64String(Model)" alt="not yet uploaded" />
+}
