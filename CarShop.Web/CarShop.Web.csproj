@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CarShop.Dto\CarShop.Dto.csproj" />
+    <ProjectReference Include="..\CarShop.Service.Contract\CarShop.Service.Contract.csproj" />
     <ProjectReference Include="..\CarShop.Service.Implementation\CarShop.Service.Implementation.csproj" />
   </ItemGroup>
 
